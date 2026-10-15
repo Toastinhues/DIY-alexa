@@ -17,12 +17,12 @@ _I recently got into engineering projects and thought this could be useful in an
 
 # **Planned Features** <h4> 
 
--Voice input through a microphone
--A customizable voice-assistant software setup (Alexa and Alexa Ultimate app) 
--Stereo audio using two full-range drivers
--A physical volume knob 
--A custom MDF enclosure
--An optional display and additional features as the project develops. (if I can get funding)
+1. Voice input through a microphone
+2. A customizable voice-assistant software setup (Alexa and Alexa Ultimate app) 
+3. Stereo audio using two full-range drivers
+4. A physical volume knob 
+5. A custom MDF enclosure
+6. An optional display and additional features as the project develops. (if I can get funding)
 
 # _Hardware_ <h4> 
 
