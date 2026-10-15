@@ -38,10 +38,10 @@ I also tried opening and using TWRP, LineageOS, and working SD card-based Linux 
 
 ## Documentation <h2>
 
-. [Bill of Materials](BOM+DIY+alexa.xlsx)
-. [Development Timeline](docs/PROJECT_TIMELINE.md)
-. [Build Notes](docs/BUILD_NOTES.md)
-. [Photos] (docs/PHOTO_EVIDENCE_CHECKLIST.md)
+>1. [Bill of Materials](PROJECT_TIMELINE_NOTES.md)
+>2. [Development Timeline](docs/PROJECT_TIMELINE_NOTES.md)
+>3. [Build Notes](docs/BUILD_NOTES_TEMPLATE.md)
+>4. [Photos](docs/PHOTO_EVIDENCE_CHECKLIST.md)
 
 
 # How to build it with diagrams <h2> 
