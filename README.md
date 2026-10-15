@@ -36,6 +36,14 @@ I have dismantled an old Compaq laptop to look for reusable components, recovere
 
 I also tried opening and using TWRP, LineageOS, and working SD card-based Linux booting. These attempts have not produced a reliable working system, and the Internal eMMC failure has led me to reconsider the original approach.
 
+## Documentation <h2>
+
+. [Bill of Materials](BOM+DIY+alexa.xlsx)
+. [Development Timeline](docs/PROJECT_TIMELINE.md)
+. [Build Notes](docs/BUILD_NOTES.md)
+. [Photos] (docs/PHOTO_EVIDENCE_CHECKLIST.md)
+
+
 # How to build it with diagrams <h2> 
 
 _The complete smart speaker has not been assembled due to a lack of parts, so there are no verified instructions for operating a finished device. The intended design will connect a microphone and sound interface to the computing platform, with audio output routed through a stereo amplifier to the speakers._
