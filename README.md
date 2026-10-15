@@ -48,3 +48,8 @@ I also tried opening and using TWRP, LineageOS, and working SD card-based Linux 
 
 _The complete smart speaker has not been assembled due to a lack of parts, so there are no verified instructions for operating a finished device. The intended design will connect a microphone and sound interface to the computing platform, with audio output routed through a stereo amplifier to the speakers._
 
+## Photos of diagrams <h2>
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/57694eb8-439d-4e20-86fd-70279ef0d0a4" />
+<img width="1421" height="1291" alt="image" src="https://github.com/user-attachments/assets/ef1a6f1c-4edf-43bb-9928-7723c29fbd8e" />
+
