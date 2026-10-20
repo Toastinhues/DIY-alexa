@@ -53,3 +53,8 @@ _The complete smart speaker has not been assembled due to a lack of parts, so th
 <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/57694eb8-439d-4e20-86fd-70279ef0d0a4" />
 <img width="1421" height="1291" alt="image" src="https://github.com/user-attachments/assets/ef1a6f1c-4edf-43bb-9928-7723c29fbd8e" />
 
+
+## Wiring Diagram (I'm sorry this was made in Paint)
+
+<img width="1536" height="1024" alt="DIY Voice Assistant Wiring Plan" src="https://github.com/user-attachments/assets/2342e556-1e04-4168-8b7b-69334174feab" />
+
