@@ -61,3 +61,5 @@ _The complete smart speaker has not been assembled due to a lack of parts, so th
 ## BOM
 
 [BOM_project_3491.xlsx](https://github.com/user-attachments/files/33730753/BOM_project_3491.xlsx)
+
+[BOM_project_3491.csv](https://github.com/user-attachments/files/33760308/BOM_project_3491.csv)
