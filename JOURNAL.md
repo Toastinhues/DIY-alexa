@@ -40,7 +40,8 @@ Problems needed to fix -
 
 -I still need to figure out a way to differenciate between devices with alexa tap or not because it will always to download the app ( i need it to differenciate when to collect data and when to tell you to download the app ) 
 
-![D9B7F669-6A8F-4745-941B-4B07FDBD7CF8_.png](https://cdn.hackclub.com/01a161cf-afdf-76ca-aa1a-bbbde8e05468/D9B7F669-6A8F-4745-941B-4B07FDBD7CF8_.png)
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/6b26f3cc-f6d1-46ec-906f-84922d7f6a6d" />
+
 
 Please be Patient I will add more images later ( NOTE for reviewer )
 
