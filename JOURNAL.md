@@ -43,8 +43,6 @@ Problems needed to fix -
 <img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/6b26f3cc-f6d1-46ec-906f-84922d7f6a6d" />
 
 
-Please be Patient I will add more images later ( NOTE for reviewer )
-
 # 2026-10-20: Making the 3D model  
 
 **Total time spent: 2 hours**
