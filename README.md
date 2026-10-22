@@ -58,6 +58,10 @@ _The complete smart speaker has not been assembled due to a lack of parts, so th
 
 <img width="1536" height="1024" alt="DIY Voice Assistant Wiring diagram" src="https://github.com/user-attachments/assets/ee1ce14d-a9fd-4c8b-a0d8-1cbb5d2c9897" />
 
+>Wiring plan for lights; the wiring for the touch buttons is the same as arduino ones, so no need to add that
+
+<img width="672" height="280" alt="image" src="https://github.com/user-attachments/assets/e38e5316-e345-414e-bcab-491ac0dc0882" />
+
 ## BOM
 
 [BOM_project_3491.xlsx](https://github.com/user-attachments/files/33730753/BOM_project_3491.xlsx)
