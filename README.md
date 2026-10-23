@@ -67,3 +67,7 @@ _The complete smart speaker has not been assembled due to a lack of parts, so th
 [BOM_project_3491.xlsx](https://github.com/user-attachments/files/33730753/BOM_project_3491.xlsx)
 
 [BOM_project_3491.csv](https://github.com/user-attachments/files/33760308/BOM_project_3491.csv)
+
+## Website and app for NFC features to work 
+
+[Website and App code ](https://github.com/Toastinhues/diy-alexa-website)
