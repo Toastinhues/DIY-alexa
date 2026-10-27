@@ -42,7 +42,7 @@ I also tried opeing and using TWRP, LineageOS, and working SD card-based Linux b
 >2. [Development Timeline](docs/PROJECT_TIMELINE_NOTES.md)
 >3. [Build Notes](docs/BUILD_NOTES_TEMPLATE.md)
 >4. [Photos](docs/PHOTO_EVIDENCE_CHECKLIST.md)
->5. 
+>5. [Software For Raspberry Pi (not the app)](https://github.com/Toastinhues/DIY-alexa/tree/main/software)
 
 # How to build it with diagrams <h2> 
 
