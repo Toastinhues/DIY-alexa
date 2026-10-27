@@ -9,11 +9,11 @@ The second biggest reason to consider this project, if you enjoy these kinds of 
 
 # **What Is This Project** <h3> 
 
-_DIY Alexa is a personal hardware project I built using accessible, affordable components and tried to repurpose electronics. The goal is to create a voice assistant with stereo audio output and a custom enclosure._
+DIY Alexa is a personal hardware project I built using accessible, affordable components and tried to repurpose electronics. The goal is to create a voice assistant with stereo audio output and a custom enclosure.
 
 # **Why Am I Building It?** <h3>
 
-_I recently got into engineering projects and thought this could be useful in anyone's daily life, giving unused things a second life while teaching about audio systems and operating systems. I also wanted to learn how a smart speaker works by building it through research and picking individual parts._
+I recently got into making such projects and thought this could be useful in anyone's daily life, giving unused things a second life while teaching about audio systems and operating systems. I also wanted to learn how a smart speaker works by building it through research and picking individual parts._
 
 # **Planned Features** <h4> 
 
@@ -43,6 +43,7 @@ I also tried opeing and using TWRP, LineageOS, and working SD card-based Linux b
 >3. [Build Notes](docs/BUILD_NOTES_TEMPLATE.md)
 >4. [Photos](docs/PHOTO_EVIDENCE_CHECKLIST.md)
 >5. [Software For Raspberry Pi (not the app)](https://github.com/Toastinhues/DIY-alexa/tree/main/software)
+>6. [Build Instuctions](https://github.com/Toastinhues/DIY-alexa/blob/main/Build_Instructions.md)
 
 # How to build it with diagrams <h2> 
 
