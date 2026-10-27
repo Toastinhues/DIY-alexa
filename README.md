@@ -61,7 +61,7 @@ well the complete smart speaker has not been assembled because I dont have parts
 
 >Wiring plan for lights; the wiring for the touch buttons is the same as arduino ones, so no need to add that
 
-<img width="672" height="280" alt="image" src="https://github.com/user-attachments/assets/e38e5316-e345-414e-bcab-491ac0dc0882" />
+<img width="875" height="585" alt="image" src="https://github.com/user-attachments/assets/aedd2660-188f-4988-8a71-3bed50ad9fd1" />
 
 ## BOM
 
