@@ -28,82 +28,47 @@ This guide explains how to assemble and set up the DIY Alexa speaker. Follow the
 
 ## Step 2: Prepare the Speaker Enclosure
 
-1.Measure the speakers and electronic components.
-
-2.Plan the enclosure layout, leaving room for the Raspberry Pi, amplifier, wiring, and ventilation.
-
-3.Cut and assemble the MDF panels.
-
-4.Make openings for both speakers, buttons, power input, and any required ports.
-
-5.Check that all components fit before permanently mounting them.
+Before even building anything, firstly size all the things we need to mount inside the enclosure before bulding( trust me its easier this way ).Make sure there is plenty of head room or well space in general for future upgrades and cooling fans and ventilation. After the planning is done cut and assemble the enclosre accordingly please use acrylic glue only use screw for parts not for sealing the encloure. and be sure not to seal the box permanently or else it will become really challenging for you to troubleshoot the alexa.
 
 **Try to keep the wiring a bit accessible since there are many things which could need testing**
 
 ## Step 3: Install the Speakers
 
-- Position the two speaker drivers in the enclosure.
-- After positioning, cut all the appropriate holes in the wood.
-- Secure them using appropriate screws and mounting points.
-- Connect the left speaker to the amplifier's left-channel output.
-- Connect the right speaker to the amplifier's right-channel output.
-- Verify polarity and ensure that no bare wires can touch each other.
-
+after making the mounting holes for the speaker fit the speakers into its respecive hole and screw it down tightly to avoid those nasty vibrations. wrie the speakers to the amplifier ( Please check the polarity or both your speakers WILL fry ). Insulate all the loose wiring. 
 >TBH, you might need to verify and test everything yourself since I dont currently have the parts right now
 
 ## Step 4: Set Up the Power Supply
 
-- Connect the 9V DC adapter to a suitable power-distribution arrangement.
-- Supply the PAM8610 amplifier using a voltage within its specified operating range.
-- Feed the Raspberry Pi through a correctly rated buck converter set to the Pi's required input voltage.
-- Verify output voltage and polarity using a multimeter before connecting the Pi.
-- Secure all power connections and insulate exposed conductors.
+Insert the 9V DC wall wort into your main power line. Provide the amp with proper voltage (PAM8610 prefers 7-15V). With a buck converter, reduce power to whatever the Pi demands (mostly 5V). Before you connect the Pi, find a multimeter and verify output voltage and polarity. Insulate everything-exposed wiring is a no-go. Forbid 9V directly on 5V line powering the Pi. Use a power supply, converter, and cables able to supply whatever current your amp consumes.
 
-**Do not connect 9V directly to the Raspberry Pi's 5V input. Confirm that the adapter, converter, and wiring can safely supply the required current**
+**Do not connect 9V directly to the Raspberry Pi's 5V input. Confirm that the adapter, converter, and wiring can safely supply the required current. trust me I did this in an Arduino Uno and its not good**
 
 ## Step 5: Connect the Audio Hardware
 
-- Connect the USB sound card to a Raspberry Pi USB port.
-- Connect the microphone to the appropriate input on the sound card.
-- Connect the sound card's audio output to the amplifier's AUX input using a 3.5mm AUX cable.
-- Keep audio wiring away from power wiring where practical.
-- Check that the amplifier input and sound card output are compatible.
+Connect the aux cable to the sound card to the Pi, and connect the Mic to the sound card. Connect the audio output of the sound card to the input of the amp using 3.5mm to 3.5mm aux cable. Please be sure to keep power and audio wires apart. amp input should be the same as the sound card output.
 
 >If you're at this point, it's high time to check for the ground loop issue
 
 ## Step 6: Connect the Three-Button Controls
 
-- Mount the three buttons on the enclosure.
-- Connect each button to its designated Raspberry Pi GPIO input according to the project's wiring diagram.
-- Ensure that the GPIO pins are configured correctly in software.
-- Configure the buttons for their intended functions: mute, listening control, and Bluetooth mode.
-- Test each button individually before cloing the enclosure.
-- Also put the given python files on the Raspberry Pi
-  
+Mount the 3 buttons on the enclosure. Attach them to the right GPIO pin from your Pi. Setup your code and GPIOs. Map your buttons: mute, listen, Bluetooth. Test all the buttons before you close the enclosure. Do not forget to copy the 3 Python files to your Pi (to run the code).Or else it's not gonna work.
+
 ## Step 7: Install the Raspberry Pi Operating System
 
-- Install Raspberry Pi Imager on a computer.
-- Prepare a compatible microSD card with a supported Raspberry Pi OS version.
-- Configure the required network settings and user account.
-- Insert the card into the Raspberry Pi and boot i.
-- Connect the Pi to the internet and install available updates.
-- Confirm that the USB sound card and microphone are detected.
+Get the Raspberry Pi Imager for your PC. Write the Raspberry Pi OS onto the microSD card using the right version. Set up your network and user. Put the microSD in the Pi and turn it on. Connect to the internet and update everything. Check both the sound card and mic are being detected by the Raspberry Pi.
 
 [Download Raspberry Pi OS](https://www.raspberrypi.com/software/)
 
 ## Step 8: Set Up the Alexa Software
 
-- Configure the microphone and audio output devices.
-- Follow the official Amazon Alexa Voice Service (AVS) setup requirements if AVS is being used.
-- Complete any required Amazon developer registration, authentication, and device configuration.
-- Configure the project's startup and control software.
+Set your default microphone and speaker out. Set your Amazon Alexa Voice Service (AVS) if enabled. Register a developer account with Amazon and complete the registration and provisioning steps for your device. Load the startup and controls software for your project. Test the microphone, speaker and all controls.
 
 >Test microphone input, audio playback, and listening controls.
-_While rereading this entire I realised I used configure a bit too much sorry about that :D_
 
 ## Step 9: Test the Complete System
 
-- Before closing the enclosure, verify the following:
+**Before closing the enclosure, verify the following:**
+
 - Raspberry Pi boots successfully.
 - Microphone input is detected.
 - Alexa software starts and responds when configured.
@@ -113,9 +78,9 @@ _While rereading this entire I realised I used configure a bit too much sorry ab
 - Bluetooth pairing and audio playback work.
 - Underglow LEDs operate correctly, if installed.
 
->No loose connections, excessive heating, or persistent electrical hum are present.
+>well if you did everything correctly there should be no problems
 
 **thansk for reading hope you have fun building if you are ready to take the challenge ;D**
 
-# Happy Building 
+**Happy Building**
 
