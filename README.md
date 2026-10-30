@@ -1,6 +1,6 @@
 # DIY Alexa ( if you have a broken phone or a Raspberry Pi ) 
 
-# Motive of this Project <h3> 
+# Motive of this Project 
 
 There are old phones or even Raspberry Pis from other projects which are just lying around and I wanted to build something around that only. Something which has more features than any alexa on the market and something which is more customizable and privaate than a usual alexa due to you being able to tweak every little component and software (It's also more safe since all the touch buttons on the top of the enclosure are directly cuts off  power to the mic only. ) 
 
@@ -34,11 +34,13 @@ the audio system uses two 3-inch, 10w, 4 ohm full range drivers and a PAM8610 st
 
 The Lenovo Vibe k5+ was my original brain of the project and the real motive of all the original designs. But due to the massive eMMC failures the phone reported, I have pivoted from using a phone to a Raspberry Pi 4 Model B 4gb/8gb ram version. 
 
-# Why I cant use a esp32 even though its the ceapest option 
+# **Why I cant use a esp32 even though its the cheapest option?**
 
 The main problem of the Esp is that it does not have enough processing power or ram to run the programmes at once the main problem is ram only since there will be the Diy Alexa Player will constantly be running and checking the website and on top of that the esp would also need tp host a website. If I even manage to run all this on a Esp then it wont have enough power to run the AVS and detech the wake word which takes alot of processing power to filter all that microphone data 
 
 These are the main reasons to why the Esp would just not work. At the end of the day its just a micro controller and not a full computer and running so much on it just not possible since on top of all the existing aoftware I will also have to add apps like YouTube, Spotify, Google services and weather 
+
+Nut I do plan to use esp32 to make my own smart appliances to wrok with the alexa ( This is abetter use of the Esp32 ) 
 
 >Thanks for the suggestion to add this in the readme @a_bot 
 
@@ -50,7 +52,7 @@ I also tried opeing and using TWRP, LineageOS, and working SD card-based Linux b
 
 in the current phase I have designed many new features which only the raspi could have as it has GPIO pins, which opens a whole new world of sensors and features as compared to the phone
 
-## Documentation <h2>
+## Documentation 
 
 >1. [Bill of Materials](https://github.com/Toastinhues/DIY-alexa/blob/main/BOM_project_3491.xlsx)
 >2. [Development Timeline](docs/PROJECT_TIMELINE_NOTES.md)
