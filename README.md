@@ -1,4 +1,4 @@
-# DIY Alexa ( if you have a broken phone or a Raspberry Pi ) <h1>
+# DIY Alexa ( if you have a broken phone or a Raspberry Pi ) 
 
 # Motive of this Project <h3> 
 
@@ -8,15 +8,15 @@ There are old phones or even Raspberry Pis from other projects which are just ly
 
 The second biggest reason to consider this project, if you enjoy these kinds of projects, might also be because of how cheap it is if (you already own the Raspberry Pi or phone)
 
-# **What Is This Project** <h3> 
+# **What Is This Project**  
 
 DIY Alexa is a personal hardware project I built using accessible, affordable components and tried to repurpose electronics. The goal is to create a voice assistant with stereo audio output and a custom enclosure and add features that isnt available in anything on the market this project also as one of the cleanest and most minimalist designs with no flashy features like big screens just a small display used for just for displaying the time and current media output.
 
-# **Why Am I Building It?** <h3>
+# **Why Am I Building It?** 
 
 I recently got into making such projects and thought this could honestly be useful in anyone's daily life giving unused things a second life while teaching me about audio systems and operating systems( Im kinda new to this) . I also wanted to learn how a smart speaker works by building it through research and picking individual parts. 
 
-# **Planned Features** <h4> 
+# **Planned Features**  
 
 1. Voice input through a microphone
 2. A customizable voice-assistant software setup (Alexa and Alexa Ultimate app) 
@@ -28,7 +28,7 @@ I recently got into making such projects and thought this could honestly be usef
 8. By touching the top of the alexa it can automatically start playing your last played song by using the AlexaTap app
 9. Lights under the enclosure to show interactive lights when the Alexa is speaking and listening ( It can also act as a lamp at night ) 
 
-# Hardware <h4> 
+# Hardware 
 
 the audio system uses two 3-inch, 10w, 4 ohm full range drivers and a PAM8610 stereo amplifier. I will also be looking to use a USB sound card, AUX cables,PN532 NFC/RFID Reader, TTP223 Capacitive Touch Sensor, RGB LED Strip, and reused things if possible
 
@@ -40,7 +40,7 @@ The main problem of the Esp is that it does not have enough processing power or 
 
 These are the main reasons to why the Esp would just not work. At the end of the day its just a micro controller and not a full computer and running so much on it just not possible since on top of all the existing aoftware I will also have to add apps like YouTube, Spotify, Google services and weather 
 
->Thanks for the suggestion to add this in the readme a_bot 
+>Thanks for the suggestion to add this in the readme @a_bot 
 
 # Current progress 
 
@@ -59,7 +59,7 @@ in the current phase I have designed many new features which only the raspi coul
 >5. [Software For Raspberry Pi (not the app)](https://github.com/Toastinhues/DIY-alexa/tree/main/software)
 >6. [Build Instuctions](https://github.com/Toastinhues/DIY-alexa/blob/main/Build_Instructions.md)
 
-# How to build it with diagrams <h2> 
+# How to build it with diagrams <
 
 well the complete smart speaker has not been assembled because I dont have parts, so there are no verified instructions for operating a finished device. According to the design, I will connect a microphone and sound interface to Phone or Raspberry Pi, with audio output routed through a stereo amplifier to the speakers.
 
@@ -85,7 +85,7 @@ well the complete smart speaker has not been assembled because I dont have parts
 [Build Instuctions](https://github.com/Toastinhues/DIY-alexa/blob/main/Build_Instructions.md)
 
 
-## Photos of diagrams <h2>
+## Photos of diagrams 
 
 <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/57694eb8-439d-4e20-86fd-70279ef0d0a4" />
 <img width="1421" height="1291" alt="image" src="https://github.com/user-attachments/assets/ef1a6f1c-4edf-43bb-9928-7723c29fbd8e" />
