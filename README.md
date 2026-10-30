@@ -2,18 +2,19 @@
 
 # Motive of this Project <h3> 
 
-There are a lot of broken phones or tech which are just not being used at all, so I decided to make something to help the cause by designing a simple yet clever Alexa-based device, taking advantage of all the resources of the phone or Raspberry Pi if you want a more custom and private Alexa.
-> To Be Honest, I would seriously suggest using a Raspberry Pi only, as it's more beginner-friendly and, on top of that, if the phone has problems flashing the OS or eMMC failures (**as in my case**), the project will have to pivot away from a phone, or it will take a lot more time.
+There are old phones or even Raspberry Pis from other projects which are just lying around and I wanted to build something around that only. Something which has more features than any alexa on the market and something which is more customizable and privaate than a usual alexa due to you being able to tweak every little component and software (It's also more safe since all the touch buttons on the top of the enclosure are directly cuts off  power to the mic only. ) 
+
+>If I would have to suggest honestly, just bite the bullet and use the Raspberry Pi for better features easier setup and more accessible additional features since it has GPIO pins 
 
 The second biggest reason to consider this project, if you enjoy these kinds of projects, might also be because of how cheap it is if (you already own the Raspberry Pi or phone)
 
 # **What Is This Project** <h3> 
 
-DIY Alexa is a personal hardware project I built using accessible, affordable components and tried to repurpose electronics. The goal is to create a voice assistant with stereo audio output and a custom enclosure.
+DIY Alexa is a personal hardware project I built using accessible, affordable components and tried to repurpose electronics. The goal is to create a voice assistant with stereo audio output and a custom enclosure and add features that isnt available in anything on the market this project also as one of the cleanest and most minimalist designs with no flashy features like big screens just a small display used for just for displaying the time and current media output.
 
 # **Why Am I Building It?** <h3>
 
-I recently got into making such projects and thought this could be useful in anyone's daily life, giving unused things a second life while teaching about audio systems and operating systems. I also wanted to learn how a smart speaker works by building it through research and picking individual parts._
+I recently got into making such projects and thought this could honestly be useful in anyone's daily life giving unused things a second life while teaching me about audio systems and operating systems( Im kinda new to this) . I also wanted to learn how a smart speaker works by building it through research and picking individual parts. 
 
 # **Planned Features** <h4> 
 
@@ -23,22 +24,35 @@ I recently got into making such projects and thought this could be useful in any
 4. A physical volume knob 
 5. A custom MDF enclosure
 6. An optional display and additional features as the project develops. (if I can get funding)
+7. 3 touch sensitive buttons for the following features - Mute mic, Start listening and bluetooth mode
+8. By touching the top of the alexa it can automatically start playing your last played song by using the AlexaTap app
+9. Lights under the enclosure to show interactive lights when the Alexa is speaking and listening ( It can also act as a lamp at night ) 
 
 # Hardware <h4> 
 
-the audio system uses two 3-inch, 10w, 4 ohm full range drivers and a PAM8610 stereo amplifier. I will also be looking to use a USB sound card, AUX cables, and reused things if possible
+the audio system uses two 3-inch, 10w, 4 ohm full range drivers and a PAM8610 stereo amplifier. I will also be looking to use a USB sound card, AUX cables,PN532 NFC/RFID Reader, TTP223 Capacitive Touch Sensor, RGB LED Strip, and reused things if possible
 
-The Lenovo Vibe k5+ was my original computing platform. But due to the massive eMMC failures the phone reported, I have pivoted from using a phone to a Raspberry Pi 4 Model B 4gb/8gb ram version. 
+The Lenovo Vibe k5+ was my original brain of the project and the real motive of all the original designs. But due to the massive eMMC failures the phone reported, I have pivoted from using a phone to a Raspberry Pi 4 Model B 4gb/8gb ram version. 
 
-# Current progress <h2>
+# Why I cant use a esp32 even though its the ceapest option 
+
+The main problem of the Esp is that it does not have enough processing power or ram to run the programmes at once the main problem is ram only since there will be the Diy Alexa Player will constantly be running and checking the website and on top of that the esp would also need tp host a website. If I even manage to run all this on a Esp then it wont have enough power to run the AVS and detech the wake word which takes alot of processing power to filter all that microphone data 
+
+These are the main reasons to why the Esp would just not work. At the end of the day its just a micro controller and not a full computer and running so much on it just not possible since on top of all the existing aoftware I will also have to add apps like YouTube, Spotify, Google services and weather 
+
+>Thanks for the suggestion to add this in the readme a_bot 
+
+# Current progress 
 
 I have dismantled an old Compaq laptop to look for reusable components, recovered a PCB from some old Bluetooth headphones, researched the audio hardware, and experimented with powering the Lenovo K5+ using an alternative battery arrangement.
 
-I also tried opeing and using TWRP, LineageOS, and working SD card-based Linux booting. These attempts have not produced a reliable working system, and the Internal eMMC failure has led me to reconsider the original approach.
+I also tried opeing and using TWRP, LineageOS, and working SD card-based Linux booting. These attempts have not produced a reliable working system, and the Internal eMMC failure has led me to reconsider the original approach. leading to the project pivoting from a small scale project to a project requiring custom software and much more. 
+
+in the current phase I have designed many new features which only the raspi could have as it has GPIO pins, which opens a whole new world of sensors and features as compared to the phone
 
 ## Documentation <h2>
 
->1. [Bill of Materials](BOM%20DIY%20alexa.xlsx)
+>1. [Bill of Materials](https://github.com/Toastinhues/DIY-alexa/blob/main/BOM_project_3491.xlsx)
 >2. [Development Timeline](docs/PROJECT_TIMELINE_NOTES.md)
 >3. [Build Notes](docs/BUILD_NOTES_TEMPLATE.md)
 >4. [Photos](docs/PHOTO_EVIDENCE_CHECKLIST.md)
@@ -48,6 +62,28 @@ I also tried opeing and using TWRP, LineageOS, and working SD card-based Linux b
 # How to build it with diagrams <h2> 
 
 well the complete smart speaker has not been assembled because I dont have parts, so there are no verified instructions for operating a finished device. According to the design, I will connect a microphone and sound interface to Phone or Raspberry Pi, with audio output routed through a stereo amplifier to the speakers.
+
+# How to flash the software on the Raspberry Pi in steps- 
+
+- take the micro SD card you have At least 32gb should be okay or you can maybe do it in a 16gb card but I dont recommend it
+- open the raspberry Pi website and download the image file for the specific Pi version ( PI 4 4 gb )
+- follow the steps on the website and download the files on the micro sd card
+- insert the ready microSD card in the Pi
+- insert a temporary keyboard, mouse and dislay for the intitial setup
+- download all the necessary drivers for your specific Pi 
+- after that, download all the software given in the repository for both the lights and Alexa player
+- after downloading the code and source files, go on the web and download any python IDE you like
+- download all the requirements such as yt-dip
+- Finally, run the code using the terminal and writing py main.py
+- after all this you can finally test wheather your app and other features are working and dont forget to test if the mic and speakers are woring
+- If you are at this point you are almost done and can continue with the other stpes in Build_instructions
+
+[Download the Raspberry sotware from here](https://www.raspberrypi.com/software/operating-systems/)
+
+**If you want some more instructions, go check out the Build_instructions on this repo only ;D**
+
+[Build Instuctions](https://github.com/Toastinhues/DIY-alexa/blob/main/Build_Instructions.md)
+
 
 ## Photos of diagrams <h2>
 
